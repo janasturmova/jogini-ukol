@@ -1,6 +1,10 @@
-import './style.css'
+
 export const Pose = (props) => {
     return (
-        <img className="pose" src={props.src} alt="Yoga Pose"/>
+        <img className="pose" src={props.src}/>
     )
+}
+
+export const foto = {
+    src: 'img/yoga-pose.jpg',
 }

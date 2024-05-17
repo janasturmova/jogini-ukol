@@ -14,3 +14,8 @@ export const Header = (props) => {
         </header>
     )
 }
+
+export const titulek = { 
+    title: 'Jogíni'
+}
+
