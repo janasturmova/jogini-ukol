@@ -3,7 +3,7 @@ import '../global.css';
 import './style.css'
 import { Header, titulek } from './components/header';
 import { Intro, intro } from './components/intro';
-import { foto } from './components/pose';
+import { Pose, foto } from './components/pose';
 
 
 
@@ -13,8 +13,9 @@ document.querySelector('#root').innerHTML += render(
       <Header title = {titulek.title}/>
       <Intro heading= {intro.heading}
              text= {intro.text}/>
-     </div>
-     <Pose src= {foto.src}/>
+      <Pose src = {foto.src}/>
+    </div>
+    
   </>
 );
 

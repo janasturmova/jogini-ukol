@@ -2,7 +2,7 @@
 
 export const Header = (props) => {
     return (
-        <header>
+        <header >
             <h1 className="site-title">{props.title}</h1>
             <nav>
                 <a href="#">domů</a>
