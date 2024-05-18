@@ -9,7 +9,7 @@ import { Pose, foto } from './components/pose';
 
 document.querySelector('#root').innerHTML += render(
   <>
-    <div id="app" class="app container">
+    <div id="app" className="app container">
       <Header title = {titulek.title}/>
       <Intro heading= {intro.heading}
              text= {intro.text}/>
