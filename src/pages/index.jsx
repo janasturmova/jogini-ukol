@@ -3,6 +3,7 @@ import './style.css'
 import { Header, titulek } from './components/header';
 import { Intro, intro } from './components/intro';
 import { Pose, foto } from './components/pose';
+import obr from '../img/yoga-pose.jpg'
 
 
 
@@ -12,7 +13,7 @@ document.querySelector('#root').innerHTML += render(
       <Header title = {titulek.title}/>
       <Intro heading= {intro.heading}
              text= {intro.text}/>
-      <Pose src = {foto.src}/>
+      <Pose src = {obr}/>
     </div>
     
   </>
